@@ -8,7 +8,6 @@ const getServiceWorkder = dir =>
     .generate({
       cacheId: 'parcel-plugin-sw-precache',
       dontCacheBustUrlsMatching: /\.\w{8}\./,
-      navigateFallback: '/index.html',
       staticFileGlobs: [
         dir + '/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}'
       ],
